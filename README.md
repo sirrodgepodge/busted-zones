@@ -2,6 +2,8 @@
 
 Upgraded to Next.js 13 and a custom server with multiple zones is busted.
 
+My use case is a simple multi-tenant monorepo using yarn workspaces.  Here I've mocked this up by having a server for the "hotel guests" and "hotel hosts" apps.
+
 ## How to use
 
 ```bash
