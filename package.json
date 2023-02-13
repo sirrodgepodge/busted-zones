@@ -1,3 +1,24 @@
 {
-  "private": true
+  "name": "with-zones",
+  "version": "1.0.0",
+  "engines": {
+    "node": "16.19.0",
+    "yarn": "3.4.1"
+  },
+  "workspaces": {
+    "packages": [
+      "shared",
+      "backend",
+      "hotel-host",
+      "hotel-guest"
+    ]
+  },
+  "scripts": {
+    "dev": "yarn workspace @hotel/backend dev",
+    "build": "yarn hotel-guest-build && yarn hotel-host-build",
+    "hotel-guest-build": "next build hotel-guest",
+    "hotel-host-build": "next build hotel-host"
+  },
+  "license": "ISC",
+  "packageManager": "yarn@3.4.1"
 }

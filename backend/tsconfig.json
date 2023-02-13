@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "typeRoots": ["../@types", "../node_modules/@types"],
+    "target": "es5",
+    "lib": ["dom", "dom.iterable", "esnext", "es2021"],
+    "baseUrl": ".",
+    "outDir": "./dist",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "sourceMap": true,
+    "importHelpers": true,
+    "strict": true,
+    "allowJs": false,
+    "skipLibCheck": true,
+    "allowSyntheticDefaultImports": true,
+    "resolveJsonModule": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmitHelpers": true,
+    "useDefineForClassFields": false,
+    "noEmit": true
+  },
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
+  "exclude": ["node_modules"]
+}

@@ -1,0 +1,13 @@
+{
+  "private": true,
+  "name": "@hotel/host",
+  "scripts": {
+    "build": "next build"
+  },
+  "dependencies": {
+    "@types/node": "^18.13.0",
+    "next": "canary",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  }
+}
