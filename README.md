@@ -1,6 +1,6 @@
 # Busted zones!
 
-Updgraded to Next.js 13 and a custom server with multiple zones is busted.
+Upgraded to Next.js 13 and a custom server with multiple zones is busted.
 
 ## How to use
 
