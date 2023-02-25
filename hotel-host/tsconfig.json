@@ -15,7 +15,8 @@
     "useDefineForClassFields": false,
     "experimentalDecorators": true,
     "jsx": "preserve",
-    "baseUrl": ".",
+    "baseUrl": "hotel-host/",
+    "outDir": "dist/",
     "incremental": true,
     "noEmit": true
   },

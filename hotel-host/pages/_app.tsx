@@ -10,7 +10,7 @@ interface AppProps extends DefaultAppProps {
     };
 }
 
-export default function App({ Component, pageProps, router }: AppProps): JSX.Element {
+export default function AppHost({ Component, pageProps, router }: AppProps): JSX.Element {
     return (
         <React.Fragment>
             <style>{`
